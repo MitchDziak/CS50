@@ -1,0 +1,23 @@
+Prompt the user for height
+
+Print the height with one blank space for every height after 1
+
+Print one line for each height. If the height is 2, it prints blank lines -1 plus a #.
+
+Print empty_space * x - 1 plus a #
+
+Start out by making a grid first based on height. If 4, itd be 4 # tall and 4 # wide
+
+Then try it with blank spaces, but replace one blank space at the end with a # for each line up to the height (do while loop)
+
+get int height
+do
+
+i = row, i++ for each row
+print empty spaces for int height - 1 + (# + i)
+
+
+
+
+while row less than int height
+
