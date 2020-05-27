@@ -1,0 +1,12 @@
+Get input of 13 15 or 16 digit number
+Test to see if it is a valid number using checksum algorithm
+If it's valid, test to see if it's an AMEX, Mastercard, or Visa
+Print AMEX, Mastercard, Visa, or INVALID
+
+To get the last two digits, can subtract the front 14 digits by itself?
+
+To get the last digit, use mod 10.
+To get the 2nd to last, divide by 10 then use mod 10
+To get the 3rd to last digit, divide by 100, then use mod 10
+
+
